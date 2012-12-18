@@ -1,415 +1,382 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
-<html id="index.html">
-<head>
-<title>altJS compile-to-JavaScript language list</title>
-<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="maxbridge.css.php">
-<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript">
-		
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-22449149-3']);
-		  _gaq.push(['_trackPageview']);
-		
-		  (function() {
-		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
-		
-		</script><script src="zepto.min.js"></script><script src="maxbridge.js.php"></script>
-</head>
-<body>
-		<h1 style="width: 107px; height: 107px; color: white; position: relative;">
-<img src="altjs30.gif" style="height: 107px;"><span style="position: absolute; bottom: -1px; left: 0;">altJS</span>
-</h1>
-		<p>altJS is a collection of languages and tools aimed at rebooting JavaScript and making it better. Everything you'll find on this page is designed to output code for use on the web or with JavaScript-enabled servers and devices. This site is a handy guide to what's new in the altJS universe, as well as a place to connect.</p>
-<p>Missing the conversation?&nbsp;Chat on&nbsp;<a href="irc://irc.freenode.net/altJS">#altJS</a>&nbsp;or&nbsp;join the&nbsp;<a href="http://groups.google.com/group/altjs">Google Group</a>.</p>
-<h4>Top-Ranking Languages on GitHub</h4>
-<!--
-https://github.com/languages/JavaScript
-https://github.com/languages/ActionScript
-https://github.com/languages/CoffeeScript
-https://github.com/languages/HaXe
-https://github.com/languages/Objective-J
--->
-<p>(JavaScript <b>#1</b>, ActionScript <b>#18</b>)</p>
-<p><a href="http://coffeescript.com/">CoffeeScript</a> <b>#10</b>, <a href="http://haxe.org/">HaXe</a> <b>#46</b>, <a href="http://en.wikipedia.org/wiki/Objective-J">Objective-J</a> <b>#50</b></p>
-<h4>New Languages Based on JavaScript</h4>
-		      <p>These languages employ a combination of syntactic sugar and replacement syntax. They're new in the sense that they aren't ports, but don't necessarily reflect JavaScript's look-and-feel or default behavior. Some are backward-compatible supersets of JavaScript, others are not.</p>
-<ul>
-<li>
-<a href="http://coffeescript.com/">CoffeeScript</a> JavaScript alternative inspired by Ruby, Python and others.</li>
-<li>
-<a href="https://github.com/satyr/coco">Coco</a> A CoffeeScript variant with cutting-edge experimental features.</li>
-<li>
-<a href="http://disnetdev.com/contracts.coffee/">Contracts.coffee</a> CoffeeScript dialect with runtime contracts.</li>
-<li>
-<a href="https://github.com/creationix/jack">Jack</a> A language that emphasizes simplicity, fun and productivity.</li>
-<li>
-<a href="http://js11.org/">JS11</a> A code expander that inserts omitted elements and debugs line-for-line.</li>
-<li>
-<a href="http://sibilantjs.info">Sibilant</a> An expandable JavaScript-like language inspired by Lisp.</li>
-<li>
-<a href="https://github.com/weepy/kaffeine">Kaffeine</a> Progressive enhancement of JavaScript, aimed at professionals.</li>
-<li>
-<a href="http://movelang.org/">Move</a> A simplified language intended for new programmers.</li>
-<li>
-<a href="https://github.com/fab13n/parsec-coffee-script">Parsec CoffeeScript</a> An extensible fork of the CoffeeScript project.</li>
-<li>
-<a href="http://code.google.com/p/zedscript/">Zedscript</a> Pseudocode-ish syntax alternative to the ECMAScript syntax.</li>
-<li>
-<a href="http://gkz.github.com/LiveScript/">LiveScript</a> Coco but much more compatible with CoffeeScript, more functional, and more feature rich.</li>
-</ul>
-<h4>JavaScript Enhancements</h4>
-<h5>Security Enforcement</h5>
+<!doctype html>
+<html>
+  <head>
+    <title>altJS compile-to-JavaScript language list</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-22449149-3']);
+      _gaq.push(['_trackPageview']);
 
-<ul>
-<li>
-<a href="http://www.adsafe.org/">ADsafe</a> Client-side static verifier and API, making third party scripts safe.</li>
-<li>
-<a href="http://code.google.com/p/google-caja/">Caja</a> Compiles ES5/strict to ES3 and supports object-capabilities.</li>
-<li>
-<a href="http://www.sitepen.com/blog/2008/08/01/secure-mashups-with-dojoxsecure/">Dojo Secure</a> Framework for building secure mashups.</li>
-<li>
-<a href="http://developers.facebook.com/docs/fbjs">FBJS</a> Facebook JavaScript, used for scripting Facebook gadgets.</li>
-<li>
-<a href="http://jacaranda.org/">Jacaranda</a> Static verifier supporting object-capabilities.</li>
-<li>
-<a href="http://research.microsoft.com/en-us/projects/gatekeeper/">Gatekeeper</a> Microsoft Research project.</li>
-<li>
-<a href="http://websandbox.livelabs.com/">Microsoft Web Sandbox</a> Technology preview, security through isolation.</li>
-</ul>
-<h5>Static Typing</h5>
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+  <body>
+    <h1 style="width: 107px; height: 107px; color: white; position: relative;">
+      <img alt="" src="altjs30.gif" style="height: 107px;"><span style="position: absolute; bottom: -1px; left: 0;">altJS</span>
+    </h1>
+    <p>altJS is a collection of languages and tools aimed at rebooting JavaScript and making it better. Everything you'll find on this page is designed to output code for use on the web or with JavaScript-enabled servers and devices. This site is a handy guide to what's new in the altJS universe, as well as a place to connect.</p>
+    <p>Missing the conversation?&nbsp;Chat on&nbsp;<a href="irc://irc.freenode.net/altJS">#altJS</a>&nbsp;or&nbsp;join the&nbsp;<a href="http://groups.google.com/group/altjs">Google Group</a>.</p>
+    <h4>Top-Ranking Languages on GitHub</h4>
+    <!--
+        https://github.com/languages/JavaScript
+        https://github.com/languages/ActionScript
+        https://github.com/languages/CoffeeScript
+        https://github.com/languages/HaXe
+        https://github.com/languages/Objective-J
+      -->
+    <p>(JavaScript <b>#1</b>, ActionScript <b>#18</b>)</p>
+    <p><a href="http://coffeescript.com/">CoffeeScript</a> <b>#10</b>, <a href="http://haxe.org/">HaXe</a> <b>#46</b>, <a href="http://en.wikipedia.org/wiki/Objective-J">Objective-J</a> <b>#50</b></p>
+    <h4>New Languages Based on JavaScript</h4>
+    <p>These languages employ a combination of syntactic sugar and replacement syntax. They're new in the sense that they aren't ports, but don't necessarily reflect JavaScript's look-and-feel or default behavior. Some are backward-compatible supersets of JavaScript, others are not.</p>
+    <ul>
+      <li>
+        <a href="http://coffeescript.com/">CoffeeScript</a> JavaScript alternative inspired by Ruby, Python and others.</li>
+      <li>
+        <a href="https://github.com/satyr/coco">Coco</a> A CoffeeScript variant with cutting-edge experimental features.</li>
+      <li>
+        <a href="http://disnetdev.com/contracts.coffee/">Contracts.coffee</a> CoffeeScript dialect with runtime contracts.</li>
+      <li>
+        <a href="https://github.com/creationix/jack">Jack</a> A language that emphasizes simplicity, fun and productivity.</li>
+      <li>
+        <a href="http://js11.org/">JS11</a> A code expander that inserts omitted elements and debugs line-for-line.</li>
+      <li>
+        <a href="http://sibilantjs.info">Sibilant</a> An expandable JavaScript-like language inspired by Lisp.</li>
+      <li>
+        <a href="https://github.com/weepy/kaffeine">Kaffeine</a> Progressive enhancement of JavaScript, aimed at professionals.</li>
+      <li>
+        <a href="http://movelang.org/">Move</a> A simplified language intended for new programmers.</li>
+      <li>
+        <a href="https://github.com/fab13n/parsec-coffee-script">Parsec CoffeeScript</a> An extensible fork of the CoffeeScript project.</li>
+      <li>
+        <a href="http://code.google.com/p/zedscript/">Zedscript</a> Pseudocode-ish syntax alternative to the ECMAScript syntax.</li>
+      <li>
+        <a href="http://gkz.github.com/LiveScript/">LiveScript</a> Coco but much more compatible with CoffeeScript, more functional, and more feature rich.</li>
+    </ul>
+    <h4>JavaScript Enhancements</h4>
+    <h5>Security Enforcement</h5>
 
-<ul>
-<li>Some of the others listed are statically typed, such as mobl, GWT, NS Basic, and Haxe.</li>
-<li>
-<a href="https://github.com/safejs/SafeJS">SafeJS</a> Typed JS with optional syntactic sugar.</li>
-<li>
-<a href="http://projects.nikhilk.net/ScriptSharp">Script#</a> [commercial] Compiles C# to JS.</li>
-<li>
-<a href="http://milescript.org/">MileScript</a> [commercial] A strongly-typed language similar to C# and Java, but which compiles to JS. free for non-profit, educational use.</li>
-<li>
-<a href="http://www.mascaraengine.com/">Mascara</a> [commercial] Enhances JavaScript with powerful features like classes, namespaces and type-checking.</li>
-<li>
-<a href="http://roy.brianmckenna.org/">Roy</a> Functional language with type inference, structural typing, sum types, pattern matching - tries to stay close to JavaScript semantics</li>
-<li>
-<a href="http://www.toptensoftware.com/prefix/">Prefix</a> C# like language with readable output.</li>
-<li>
-<a href="http://elm-lang.org/">Elm</a> type-safe functional language that compiles to HTML, CSS, and JavaScript</li>
-<li>
-<a href="http://pitfw.posterous.com/">Pit</a> F# to Javascript compiler</li>
-<li>
-<a href="http://jsx.github.com/">JSX</a> a faster, safer, easier alternative to JavaScript</li>
-</ul>
-<h5>Synchronous to Asynchronous (CPS)</h5>
+    <ul>
+      <li>
+        <a href="http://www.adsafe.org/">ADsafe</a> Client-side static verifier and API, making third party scripts safe.</li>
+      <li>
+        <a href="http://code.google.com/p/google-caja/">Caja</a> Compiles ES5/strict to ES3 and supports object-capabilities.</li>
+      <li>
+        <a href="http://www.sitepen.com/blog/2008/08/01/secure-mashups-with-dojoxsecure/">Dojo Secure</a> Framework for building secure mashups.</li>
+      <li>
+        <a href="http://developers.facebook.com/docs/fbjs">FBJS</a> Facebook JavaScript, used for scripting Facebook gadgets.</li>
+      <li>
+        <a href="http://jacaranda.org/">Jacaranda</a> Static verifier supporting object-capabilities.</li>
+      <li>
+        <a href="http://research.microsoft.com/en-us/projects/gatekeeper/">Gatekeeper</a> Microsoft Research project.</li>
+      <li>
+        <a href="http://websandbox.livelabs.com/">Microsoft Web Sandbox</a> Technology preview, security through isolation.</li>
+    </ul>
+    <h5>Static Typing</h5>
 
-<ul>
-<li>
-<a href="https://github.com/Sage/streamlinejs">Streamline.js</a> Uses underscore (_) to stand for callbacks. This <a href="https://github.com/willconant/streamlinejs">fork</a> preserves line numbers for debugging.</li>
-<li>
-<a href="http://tamejs.org/">TameJS</a> From OkCupid, a cleaner way to write async JavaScript.</li>
-<li>
-<a href="http://www.mobl-lang.org">mobl</a> Screen-driven language and toolset for building mobile web apps.</li>
-<li>
-<a href="http://onilabs.com/stratifiedjs/">StratifiedJS</a> JavaScript plus structured concurrency.</li>
-<li>
-<a href="http://www.neilmix.com/narrativejs/doc/">NarrativeJS</a> JavaScript extension with asynchronous futures and promises.</li>
-<li>
-<a href="http://chumsley.org/jwacs/">jwacs</a> JavaScript With Advanced Continuation Support.</li>
-<li>
-<a href="https://github.com/JeffreyZhao/jscex">Jscex</a> Write simple JavaScript code, execute it asynchronously by compiling to monadic form. Works in any ECMAScript 3 engines directly.</li>
-</ul>
-<h5>Language Extensions</h5>
+    <ul>
+      <li>Some of the others listed are statically typed, such as mobl, GWT, NS Basic, and Haxe.</li>
+      <li>
+        <a href="https://github.com/safejs/SafeJS">SafeJS</a> Typed JS with optional syntactic sugar.</li>
+      <li>
+        <a href="http://projects.nikhilk.net/ScriptSharp">Script#</a> [commercial] Compiles C# to JS.</li>
+      <li>
+        <a href="http://milescript.org/">MileScript</a> [commercial] A strongly-typed language similar to C# and Java, but which compiles to JS. free for non-profit, educational use.</li>
+      <li>
+        <a href="http://www.mascaraengine.com/">Mascara</a> [commercial] Enhances JavaScript with powerful features like classes, namespaces and type-checking.</li>
+      <li>
+        <a href="http://roy.brianmckenna.org/">Roy</a> Functional language with type inference, structural typing, sum types, pattern matching - tries to stay close to JavaScript semantics</li>
+      <li>
+        <a href="http://www.toptensoftware.com/prefix/">Prefix</a> C# like language with readable output.</li>
+      <li>
+        <a href="http://elm-lang.org/">Elm</a> type-safe functional language that compiles to HTML, CSS, and JavaScript</li>
+      <li>
+        <a href="http://pitfw.posterous.com/">Pit</a> F# to Javascript compiler</li>
+      <li>
+        <a href="http://jsx.github.com/">JSX</a> a faster, safer, easier alternative to JavaScript</li>
+    </ul>
+    <h5>Synchronous to Asynchronous (CPS)</h5>
 
-<ul>
-<li>
-<a href="https://www.hpi.uni-potsdam.de/hirschfeld/trac/Cop/wiki/ContextJS">ContextJS</a> is an implementation of <a href="http://www.hpi.uni-potsdam.de/hirschfeld/cop/">Context-oriented Programming</a> for JavaScript.</li>
-<li>
-<a href="http://www.cycript.org/">Cycript</a> An Objective-C / JavaScript bridge that can also be used to compile and compress standard or hybrid JavaScript syntax.</li>
-<li>
-<a href="http://en.wikipedia.org/wiki/Objective-J">Objective-J</a> Shares with JavaScript the same relationship that Objective-C has with the C programming language: that of being a strict, but small, superset.</li>
-<li>
-<a href="https://github.com/jeffsu/js2">JS2</a> Object-oriented JavaScript with syntactic sugar (curry, foreach, property). Released as a Ruby gem.</li>
-<li>
-<a href="http://www.jangaroo.net/home/">Jangaroo</a> AS3 (ActionScript) to JavaScript.</li>
-<li>
-<a href="http://flapjax-lang.org/">Flapjax</a> Event-driven, reactive evaluation.</li>
-<li>
-<a href="http://restrictmode.org/">Restrict Mode</a> Tightens up the behavior of several JavaScript operators, including ==.</li>
-<li>
-<a href="http://jspp.javascript.am/">JavaScript++</a> Superset of JS that includes features such as classes, block scoping and a pluggable type system.</li>
-</ul>
-<h4>Next-Generation JavaScript</h4>
-<p>These are implementations intended to test next-generation proposals for the ECMAScript standard. They represent semi-official efforts to improve the JavaScript platform.</p>
-<ul>
-<li>
-<a href="https://github.com/mozilla/narcissus/">Narcissus</a> Mozilla's experimental JavaScript engine by Brendan Eich and others.<ul>
-<li><a href="https://github.com/wpbasti/jasy/tree/master/lib/jasy/parser">Jasy: Python port of Narcissus with some enhancements</a></li>
-</ul>
-</li>
-<li>
-<a href="http://code.google.com/p/traceur-compiler/">Traceur</a> Google's testbed platform for next-generation syntax ideas.</li>
-</ul>
-<h4>Ruby Ports</h4>
+    <ul>
+      <li>
+        <a href="https://github.com/Sage/streamlinejs">Streamline.js</a> Uses underscore (_) to stand for callbacks. This <a href="https://github.com/willconant/streamlinejs">fork</a> preserves line numbers for debugging.</li>
+      <li>
+        <a href="http://tamejs.org/">TameJS</a> From OkCupid, a cleaner way to write async JavaScript.</li>
+      <li>
+        <a href="http://www.mobl-lang.org">mobl</a> Screen-driven language and toolset for building mobile web apps.</li>
+      <li>
+        <a href="http://onilabs.com/stratifiedjs/">StratifiedJS</a> JavaScript plus structured concurrency.</li>
+      <li>
+        <a href="http://www.neilmix.com/narrativejs/doc/">NarrativeJS</a> JavaScript extension with asynchronous futures and promises.</li>
+      <li>
+        <a href="http://chumsley.org/jwacs/">jwacs</a> JavaScript With Advanced Continuation Support.</li>
+      <li>
+        <a href="https://github.com/JeffreyZhao/jscex">Jscex</a> Write simple JavaScript code, execute it asynchronously by compiling to monadic form. Works in any ECMAScript 3 engines directly.</li>
+    </ul>
+    <h5>Language Extensions</h5>
 
-<ul>
-<li>
-<a href="http://hotruby.yukoba.jp/">HotRuby</a> Runs opcode, compiled by YARV on Ruby inside a web browser or in Flash.</li>
-<li>
-<a href="http://rb2js.rubyforge.org/">rb2js</a> Converts Ruby to JavaScript.</li>
-<li>
-<a href="https://github.com/jessesielaff/red">Red</a> Writes like Ruby and runs like JavaScript.</li>
-<li>
-<a href="http://www.playmycode.com/docs/quby">Quby</a> Used for game coding site, not open source (requires HTML5).</li>
-</ul>
-<h4>Python Ports</h4>
+    <ul>
+      <li>
+        <a href="https://www.hpi.uni-potsdam.de/hirschfeld/trac/Cop/wiki/ContextJS">ContextJS</a> is an implementation of <a href="http://www.hpi.uni-potsdam.de/hirschfeld/cop/">Context-oriented Programming</a> for JavaScript.</li>
+      <li>
+        <a href="http://www.cycript.org/">Cycript</a> An Objective-C / JavaScript bridge that can also be used to compile and compress standard or hybrid JavaScript syntax.</li>
+      <li>
+        <a href="http://en.wikipedia.org/wiki/Objective-J">Objective-J</a> Shares with JavaScript the same relationship that Objective-C has with the C programming language: that of being a strict, but small, superset.</li>
+      <li>
+        <a href="https://github.com/jeffsu/js2">JS2</a> Object-oriented JavaScript with syntactic sugar (curry, foreach, property). Released as a Ruby gem.</li>
+      <li>
+        <a href="http://www.jangaroo.net/home/">Jangaroo</a> AS3 (ActionScript) to JavaScript.</li>
+      <li>
+        <a href="http://flapjax-lang.org/">Flapjax</a> Event-driven, reactive evaluation.</li>
+      <li>
+        <a href="http://restrictmode.org/">Restrict Mode</a> Tightens up the behavior of several JavaScript operators, including ==.</li>
+      <li>
+        <a href="http://jspp.javascript.am/">JavaScript++</a> Superset of JS that includes features such as classes, block scoping and a pluggable type system.</li>
+    </ul>
+    <h4>Next-Generation JavaScript</h4>
+    <p>These are implementations intended to test next-generation proposals for the ECMAScript standard. They represent semi-official efforts to improve the JavaScript platform.</p>
+    <ul>
+      <li>
+        <a href="https://github.com/mozilla/narcissus/">Narcissus</a> Mozilla's experimental JavaScript engine by Brendan Eich and others.<ul>
+          <li><a href="https://github.com/wpbasti/jasy/tree/master/lib/jasy/parser">Jasy: Python port of Narcissus with some enhancements</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="http://code.google.com/p/traceur-compiler/">Traceur</a> Google's testbed platform for next-generation syntax ideas.</li>
+    </ul>
+    <h4>Ruby Ports</h4>
 
-<ul>
-<li>
-<a href="https://github.com/andrewschaaf/pyxc-pj">PYXC-PJ</a> Python to JS. Can generate a (line/col)-number mappings file.</li>
-<li>
-<a href="http://pyjs.org/">Pyjamas</a> Python to JS.</li>
-<li>
-<a href="http://www.skulpt.org/">Skulpt</a> Python. Client side.</li>
-<li>
-<a href="https://github.com/p2k/PyCow">PyCow</a> Python to MooTools JS.</li>
-<li>
-<a href="http://www.allbuttonspressed.com/blog/django/2010/07/PyvaScript-Pythonic-syntax-for-your-browser">PyvaScript</a> Python-like syntax to JavaScript.</li>
-</ul>
-<h4>Java Ports</h4>
+    <ul>
+      <li>
+        <a href="http://hotruby.yukoba.jp/">HotRuby</a> Runs opcode, compiled by YARV on Ruby inside a web browser or in Flash.</li>
+      <li>
+        <a href="http://rb2js.rubyforge.org/">rb2js</a> Converts Ruby to JavaScript.</li>
+      <li>
+        <a href="https://github.com/jessesielaff/red">Red</a> Writes like Ruby and runs like JavaScript.</li>
+      <li>
+        <a href="http://www.playmycode.com/docs/quby">Quby</a> Used for game coding site, not open source (requires HTML5).</li>
+    </ul>
+    <h4>Python Ports</h4>
 
-<ul>
-<li>
-<a href="http://code.google.com/webtoolkit/">GWT</a> Google Web Toolkit, compiles java to JavaScript</li>
-<li>
-<a href="http://j2s.sourceforge.net/">Java2Script</a> Eclipse Java to JavaScript compiler plugin and JavaScript version of SWT.</li>
-<li>
-<a href="http://www.j2js.com/">j2js</a> Java bytecode to JavaScript.</li>
-<li>
-<a href="http://st-js.sourceforge.net/">STJS</a> (Strongly-Typed JavaScript) Maven plugin that generates JS from Java source.</li>
-<li>
-<a href="https://github.com/nurv/BicaVM">BicaVM</a> A JVM in JavaScript</li>
-</ul>
-<h4>Lisp, Clojure &amp; Scheme Ports</h4>
+    <ul>
+      <li>
+        <a href="https://github.com/andrewschaaf/pyxc-pj">PYXC-PJ</a> Python to JS. Can generate a (line/col)-number mappings file.</li>
+      <li>
+        <a href="http://pyjs.org/">Pyjamas</a> Python to JS.</li>
+      <li>
+        <a href="http://www.skulpt.org/">Skulpt</a> Python. Client side.</li>
+      <li>
+        <a href="https://github.com/p2k/PyCow">PyCow</a> Python to MooTools JS.</li>
+      <li>
+        <a href="http://www.allbuttonspressed.com/blog/django/2010/07/PyvaScript-Pythonic-syntax-for-your-browser">PyvaScript</a> Python-like syntax to JavaScript.</li>
+    </ul>
+    <h4>Java Ports</h4>
 
-<ul>
-<li>
-<a href="http://common-lisp.net/project/parenscript/">Parenscript</a> Subset of Common Lisp to JS.</li>
-<li>
-<a href="https://github.com/dyoo/moby-scheme">Moby Scheme</a> A Scheme running in JS.</li>
-<li>
-<a href="http://www-sop.inria.fr/indes/scheme2js/">scheme2js</a> Scheme to JavaScript.</li>
-<li>
-<a href="https://github.com/clojure/clojurescript">ClojureScript</a> From the official Clojure/core team. Converts a majority of Clojure to JS.</li>
-<li>
-<a href="https://github.com/clojure/clojure-contrib/tree/master/clojurescript">ClojureScript</a> Translates code written in a very small subset of Clojure.</li>
-<li>
-<a href="https://github.com/kriyative/clojurejs">clojurejs</a> Subset of Clojure to JS.</li>
-<li>
-<a href="https://github.com/arohner/scriptjure">Scriptjure</a> Library for generating JavaScript from Clojure forms.</li>
-<li>
-<a href="https://github.com/manuel/edgelisp">edgelisp</a> A Lisp for JavaScript.</li>
-<li>
-<a href="https://github.com/turbolent/ralph">Ralph</a> Lisp-1 dialect to JavaScript.</li>
-<li>
-<a href="http://wiki.call-cc.org/eggref/4/spock">Spock</a> A Scheme to JavaScript compiler that uses Henry Baker's Cheney-on-the-MTA compilation strategy.</li>
-<li>
-<a href="https://github.com/jcoglan/fargo">Fargo</a> Scheme in JavaScript.</li>
-<li>
-<a href="https://github.com/jlongster/outlet/">Outlet</a> A language Lisp-like in nature.</li>
-</ul>
-<h4>OCaml/ML Ports</h4>
+    <ul>
+      <li>
+        <a href="http://code.google.com/webtoolkit/">GWT</a> Google Web Toolkit, compiles java to JavaScript</li>
+      <li>
+        <a href="http://j2s.sourceforge.net/">Java2Script</a> Eclipse Java to JavaScript compiler plugin and JavaScript version of SWT.</li>
+      <li>
+        <a href="http://www.j2js.com/">j2js</a> Java bytecode to JavaScript.</li>
+      <li>
+        <a href="http://st-js.sourceforge.net/">STJS</a> (Strongly-Typed JavaScript) Maven plugin that generates JS from Java source.</li>
+      <li>
+        <a href="https://github.com/nurv/BicaVM">BicaVM</a> A JVM in JavaScript</li>
+    </ul>
+    <h4>Lisp, Clojure &amp; Scheme Ports</h4>
 
-<ul>
-<li>
-<a href="https://github.com/jaked/ocamljs">Ocamljs</a> OCaml to JS.</li>
-<li>
-<a href="http://www.pps.jussieu.fr/~canou/obrowser/tutorial/">O'Browser</a> OCaml bytecode interpreter in JS.</li>
-<li>
-<a href="http://ocsigen.org/js_of_ocaml/">Js_of_ocaml</a> OCaml bytecode to JS compiler.</li>
-<li>
-<a href="http://www.smlserver.org/smltojs/">SMLtoJs</a> Compiler from Standard ML to JavaScript.</li>
-</ul>
-<h4>Haskell Ports</h4>
+    <ul>
+      <li>
+        <a href="http://common-lisp.net/project/parenscript/">Parenscript</a> Subset of Common Lisp to JS.</li>
+      <li>
+        <a href="https://github.com/dyoo/moby-scheme">Moby Scheme</a> A Scheme running in JS.</li>
+      <li>
+        <a href="http://www-sop.inria.fr/indes/scheme2js/">scheme2js</a> Scheme to JavaScript.</li>
+      <li>
+        <a href="https://github.com/clojure/clojurescript">ClojureScript</a> From the official Clojure/core team. Converts a majority of Clojure to JS.</li>
+      <li>
+        <a href="https://github.com/clojure/clojure-contrib/tree/master/clojurescript">ClojureScript</a> Translates code written in a very small subset of Clojure.</li>
+      <li>
+        <a href="https://github.com/kriyative/clojurejs">clojurejs</a> Subset of Clojure to JS.</li>
+      <li>
+        <a href="https://github.com/arohner/scriptjure">Scriptjure</a> Library for generating JavaScript from Clojure forms.</li>
+      <li>
+        <a href="https://github.com/manuel/edgelisp">edgelisp</a> A Lisp for JavaScript.</li>
+      <li>
+        <a href="https://github.com/turbolent/ralph">Ralph</a> Lisp-1 dialect to JavaScript.</li>
+      <li>
+        <a href="http://wiki.call-cc.org/eggref/4/spock">Spock</a> A Scheme to JavaScript compiler that uses Henry Baker's Cheney-on-the-MTA compilation strategy.</li>
+      <li>
+        <a href="https://github.com/jcoglan/fargo">Fargo</a> Scheme in JavaScript.</li>
+      <li>
+        <a href="https://github.com/jlongster/outlet/">Outlet</a> A language Lisp-like in nature.</li>
+    </ul>
+    <h4>OCaml/ML Ports</h4>
 
-<ul>
-<li>
-<a href="http://www.cs.uu.nl/wiki/bin/view/Ehc/UhcUserDocumentation#5_7_3_jscript_Core_based_JavaScr">UHC</a> (Utrecht Haskell Compiler) backend converts UHC core to JavaScript, allowing the compiling of Haskell code to JS.</li>
-<li>
-<a href="http://www.haskell.org/haskellwiki/Yhc/Javascript">YHC</a> (York Haskell Compiler) backend, as above but with YHC core language.</li>
-<li>
-<a href="https://github.com/evilcandybag/JSHC">JSHC</a> Haskell to JavaScript compiler in JavaScript.</li>
-<li>
-<a href="https://github.com/hamishmack/ghcjs">ghcjs</a> Haskell to Javascript compiler (via GHC)</li>
-<li>
-<a href="https://github.com/valderman/haste-compiler">Haste</a> Generate lean Javascript code from Haskell</li>
-</ul>
-<h4>Smalltalk Derivatives</h4>
+    <ul>
+      <li>
+        <a href="https://github.com/jaked/ocamljs">Ocamljs</a> OCaml to JS.</li>
+      <li>
+        <a href="http://www.pps.jussieu.fr/~canou/obrowser/tutorial/">O'Browser</a> OCaml bytecode interpreter in JS.</li>
+      <li>
+        <a href="http://ocsigen.org/js_of_ocaml/">Js_of_ocaml</a> OCaml bytecode to JS compiler.</li>
+      <li>
+        <a href="http://www.smlserver.org/smltojs/">SMLtoJs</a> Compiler from Standard ML to JavaScript.</li>
+    </ul>
+    <h4>Haskell Ports</h4>
 
-<ul>
-<li>
-<a href="http://clamato.net/">Clamato</a> a Smalltalk dialect that is designed to operate within the JavaScript runtime.</li>
-<li>
-<a href="http://www.silversmalltalk.com/">Silver Smalltalk</a> [commercial] Smalltalk in the browser.</li>
-<li>
-<a href="http://nicolaspetton.github.com/jtalk/">JTalk</a> An implementation of the Smalltalk language that runs on top of the JavaScript runtime. </li>
-<li>
-<a href="http://www.lively-kernel.org/">Lively Kernel</a> - smalltalk/squeak-like development environment in the browser.</li>
-</ul>
-<h4>C/C++ Ports</h4>
+    <ul>
+      <li>
+        <a href="http://www.cs.uu.nl/wiki/bin/view/Ehc/UhcUserDocumentation#5_7_3_jscript_Core_based_JavaScr">UHC</a> (Utrecht Haskell Compiler) backend converts UHC core to JavaScript, allowing the compiling of Haskell code to JS.</li>
+      <li>
+        <a href="http://www.haskell.org/haskellwiki/Yhc/Javascript">YHC</a> (York Haskell Compiler) backend, as above but with YHC core language.</li>
+      <li>
+        <a href="https://github.com/evilcandybag/JSHC">JSHC</a> Haskell to JavaScript compiler in JavaScript.</li>
+      <li>
+        <a href="https://github.com/hamishmack/ghcjs">ghcjs</a> Haskell to Javascript compiler (via GHC)</li>
+      <li>
+        <a href="https://github.com/valderman/haste-compiler">Haste</a> Generate lean Javascript code from Haskell</li>
+    </ul>
+    <h4>Smalltalk Derivatives</h4>
 
-<ul>
-<li>
-<a href="http://code.google.com/p/emscripten/">Emscripten</a> LLVM to JavaScript compiler.</li>
-<li>
-<a href="http://lethalman.hostei.com/maja/index.html">mala</a> vala (gobject) to JavaScript.</li>
-<li>
-<a href="http://cluecc.sourceforge.net/">Clue</a> C language compiler to different runtimes (Lua, JS, Perl 5, C, Java, CL).</li>
-</ul>
-<h4>BASIC Ports</h4>
+    <ul>
+      <li>
+        <a href="http://clamato.net/">Clamato</a> a Smalltalk dialect that is designed to operate within the JavaScript runtime.</li>
+      <li>
+        <a href="http://www.silversmalltalk.com/">Silver Smalltalk</a> [commercial] Smalltalk in the browser.</li>
+      <li>
+        <a href="http://nicolaspetton.github.com/jtalk/">JTalk</a> An implementation of the Smalltalk language that runs on top of the JavaScript runtime. </li>
+      <li>
+        <a href="http://www.lively-kernel.org/">Lively Kernel</a> - smalltalk/squeak-like development environment in the browser.</li>
+    </ul>
+    <h4>C/C++ Ports</h4>
 
-<ul>
-<li>
-<a href="http://www.nsbasic.com/app/">NS Basic/App Studio</a> [commercial] Visual Basic-style BASIC to JavaScript compiler. Includes IDE. Targets iOS and Android.</li>
-<li>
-<a href="http://stevehanov.ca/blog/index.php?id=92">qb.js</a> An implementation of QBASIC in JavaScript.</li>
-</ul>
-<h4>Multitarget</h4>
+    <ul>
+      <li>
+        <a href="http://code.google.com/p/emscripten/">Emscripten</a> LLVM to JavaScript compiler.</li>
+      <li>
+        <a href="http://lethalman.hostei.com/maja/index.html">mala</a> vala (gobject) to JavaScript.</li>
+      <li>
+        <a href="http://cluecc.sourceforge.net/">Clue</a> C language compiler to different runtimes (Lua, JS, Perl 5, C, Java, CL).</li>
+    </ul>
+    <h4>BASIC Ports</h4>
 
-<ul>
-<li>
-<a href="http://haxe.org/">Haxe</a> compiles to several platforms (C++, Flash, JS, Neko, PHP).</li>
-<li>
-<a href="http://fantom.org/">Fantom</a> Evolutionary object-oriented language emphasizing succinct and effective APIs (JVM, CLR, JS).</li>
-<li>
-<a href="http://www.monkeycoder.co.nz/">Monkey</a> [commercial] Massively multi platform language (HTML5, Native OpenGL/OpenAL (Windows + Mac), Android, Flash, iOS, XNA).</li>
-<li>
-<a href="http://cluecc.sourceforge.net/">Clue</a> C language compiler to different runtimes (Lua, JS, Perl 5, C, Java, CL).</li>
-<li>
-<a href="http://jsc.sourceforge.net/">jsc</a> [experimental] Recompile your .NET assembly to JavaScript, ActionScript, PHP or Java.</li>
-<li>
-<a href="http://jsil.org/">JSIL</a> Compiles .NET bytecode (CIL) to JavaScript.</li>
-<li>
-<a href="http://jsil.org/">IL2JS</a> Generates JavaScript, CSS and HTML files from .NET DLL files</li>
-</ul>
-<h4>Tierless Languages (produce both client &amp; server)</h4>
+    <ul>
+      <li>
+        <a href="http://www.nsbasic.com/app/">NS Basic/App Studio</a> [commercial] Visual Basic-style BASIC to JavaScript compiler. Includes IDE. Targets iOS and Android.</li>
+      <li>
+        <a href="http://stevehanov.ca/blog/index.php?id=92">qb.js</a> An implementation of QBASIC in JavaScript.</li>
+    </ul>
+    <h4>Multitarget</h4>
 
-<ul>
-<li>
-<a href="http://opalang.org/">Opa</a> Industrial programming language for high-security distributed web applications.</li>
-<li>
-<a href="https://github.com/marcuswestin/fun">Fun</a> A programming language for realtime webapps - compiles to client-side and server-side JS.</li>
-<li>
-<a href="http://impredicative.com/ur/">Ur</a> In the tradition of ML and Haskell.</li>
-<li>
-<a href="http://www.websharper.com/">WebSharper</a> Lets you compile F# to JS.</li>
-<li>
-<a href="http://www.mobl-lang.org">mobl</a> The new language for programming the mobile web.</li>
-<li>
-<a href="http://wiki.erights.org/wiki/E-on-JS">E</a> Compiles E to JS. E is a secure distributed persistent pure object language.</li>
-<li>
-<a href="https://github.com/sebastien/sugar">Sugar</a> new programming language designed to replace JavaScript
-for client-side (and server-side) web development.</li>
-</ul>
-<h4>Other Projects</h4>
+    <ul>
+      <li>
+        <a href="http://haxe.org/">Haxe</a> compiles to several platforms (C++, Flash, JS, Neko, PHP).</li>
+      <li>
+        <a href="http://fantom.org/">Fantom</a> Evolutionary object-oriented language emphasizing succinct and effective APIs (JVM, CLR, JS).</li>
+      <li>
+        <a href="http://www.monkeycoder.co.nz/">Monkey</a> [commercial] Massively multi platform language (HTML5, Native OpenGL/OpenAL (Windows + Mac), Android, Flash, iOS, XNA).</li>
+      <li>
+        <a href="http://cluecc.sourceforge.net/">Clue</a> C language compiler to different runtimes (Lua, JS, Perl 5, C, Java, CL).</li>
+      <li>
+        <a href="http://jsc.sourceforge.net/">jsc</a> [experimental] Recompile your .NET assembly to JavaScript, ActionScript, PHP or Java.</li>
+      <li>
+        <a href="http://jsil.org/">JSIL</a> Compiles .NET bytecode (CIL) to JavaScript.</li>
+      <li>
+        <a href="http://jsil.org/">IL2JS</a> Generates JavaScript, CSS and HTML files from .NET DLL files</li>
+    </ul>
+    <h4>Tierless Languages (produce both client &amp; server)</h4>
 
-<ul>
-<li>
-<a href="https://www.dartlang.org/">Dart</a> A class-based programming language for creating structured web applications.</li>
-<li>
-<a href="https://github.com/stevedekorte/oia">Oia</a> A port of Io to JavaScript.</li>
-<li>
-<a href="http://gbracha.blogspot.com/2011/03/truthiness-is-out-there.html">newspeak</a> in progress, converting compiler from Java to JavaScript.</li>
-<li>
-<a href="https://github.com/erkyrath/quixe">Quixe</a> a Glulx VM interpreter written in JavaScript.</li>
-<li>
-<a href="https://github.com/curiousdannii/gnusto">Gnusto</a> a Z-Machine VM interpreter written in JavaScript.</li>
-<li><a href="http://www.calormen.com/logo/">Logo Interpreter</a></li>
-<li><a href="http://www.codeproject.com/KB/recipes/TIScript.aspx">TIScript</a></li>
-<li><a href="http://wiki.tcl.tk/20339">tcl.js</a> Tcl implementation in Javascript.</li>
-<li><a href="https://github.com/galedric/MIPS.coffee">MIPS.coffee</a> Simple MIPS Interpretor</li>
-<li><a href="https://github.com/baryluk/erljs">erljs</a> Run Erlang in JavaScript</li>
-<li><a href="https://github.com/damelang/nile">Nile</a> Declarative Stream Processing for Media Applications (with JS backend)</li>
-</ul>
-<h4>Tools for Compiler Writers</h4>
+    <ul>
+      <li>
+        <a href="http://opalang.org/">Opa</a> Industrial programming language for high-security distributed web applications.</li>
+      <li>
+        <a href="https://github.com/marcuswestin/fun">Fun</a> A programming language for realtime webapps - compiles to client-side and server-side JS.</li>
+      <li>
+        <a href="http://impredicative.com/ur/">Ur</a> In the tradition of ML and Haskell.</li>
+      <li>
+        <a href="http://www.websharper.com/">WebSharper</a> Lets you compile F# to JS.</li>
+      <li>
+        <a href="http://www.mobl-lang.org">mobl</a> The new language for programming the mobile web.</li>
+      <li>
+        <a href="http://wiki.erights.org/wiki/E-on-JS">E</a> Compiles E to JS. E is a secure distributed persistent pure object language.</li>
+      <li>
+        <a href="https://github.com/sebastien/sugar">Sugar</a> new programming language designed to replace JavaScript
+        for client-side (and server-side) web development.</li>
+    </ul>
+    <h4>Other Projects</h4>
 
-<h5>JavaScript Parser Generators</h5>
+    <ul>
+      <li>
+        <a href="https://www.dartlang.org/">Dart</a> A class-based programming language for creating structured web applications.</li>
+      <li>
+        <a href="https://github.com/stevedekorte/oia">Oia</a> A port of Io to JavaScript.</li>
+      <li>
+        <a href="http://gbracha.blogspot.com/2011/03/truthiness-is-out-there.html">newspeak</a> in progress, converting compiler from Java to JavaScript.</li>
+      <li>
+        <a href="https://github.com/erkyrath/quixe">Quixe</a> a Glulx VM interpreter written in JavaScript.</li>
+      <li>
+        <a href="https://github.com/curiousdannii/gnusto">Gnusto</a> a Z-Machine VM interpreter written in JavaScript.</li>
+      <li><a href="http://www.calormen.com/logo/">Logo Interpreter</a></li>
+      <li><a href="http://www.codeproject.com/KB/recipes/TIScript.aspx">TIScript</a></li>
+      <li><a href="http://wiki.tcl.tk/20339">tcl.js</a> Tcl implementation in Javascript.</li>
+      <li><a href="https://github.com/galedric/MIPS.coffee">MIPS.coffee</a> Simple MIPS Interpretor</li>
+      <li><a href="https://github.com/baryluk/erljs">erljs</a> Run Erlang in JavaScript</li>
+      <li><a href="https://github.com/damelang/nile">Nile</a> Declarative Stream Processing for Media Applications (with JS backend)</li>
+    </ul>
+    <h4>Tools for Compiler Writers</h4>
 
-<ul>
-<li>
-<a href="https://github.com/zaach/jison">jison</a> Bison in JavaScript, used by CoffeeScript</li>
-<li>
-<a href="http://tinlizzie.org/ometa-js/#Sample_Project">OMeta/JS</a> (<a href="https://github.com/veged/ometa-js">source</a>) metacompiler for many languages to many targets, including js.</li>
-<li>
-<a href="http://pegjs.majda.cz/">PEG.js</a> parser generator for JavaScript based on the parsing expression grammar formalism</li>
-<li>
-<a href="http://languagejs.com/">Language.js</a> PEG with error nodes being inserted into the tree for unique error handling</li>
-<li>
-<a href="https://github.com/jcoglan/canopy">Canopy</a> Self-hosting PEG parser compiler for JavaScript, influenced by Ruby parser generators such as Treetop and Citrus.  Depends on JS.Class library</li>
-<li>
-<a href="http://jscc.jmksf.com/">JS/CC</a> LALR(1) parser generator</li>
-<li><a href="https://github.com/doublec/jsparse">jsparse</a></li>
-<li>
-<a href="https://github.com/weaver/ReParse">ReParse</a> parser combinator library for JavaScript like Haskell's Parsec</li>
-<li>
-<a href="https://github.com/asmyczek/p4js">p4js</a> Monadic parser library for JavaScript</li>
-<li>
-<a href="http://blog.kalleberg.org/post/1256702765/prototype-of-a-scannerless-generalized-left-to-right">JSGLR</a> Scannerless, Generalized Left-to-right Rightmost (SGLR) derivation parser for JavaScript</li>
-<li>
-<a href="https://github.com/antlr/examples-v3">antlr</a> has a JavaScript target</li>
-<li>
-<a href="http://code.google.com/p/cruiser/wiki/Parse">Cruiser.Parse</a> LL(k) parser</li>
-</ul>
-<h5>Javascript AST (Abstract Syntax Tree)</h5>
+    <h5>JavaScript Parser Generators</h5>
 
-<ul>
-<li><a href="https://docs.google.com/viewer?url=http%3A%2F%2Fclosure-compiler.googlecode.com%2Ffiles%2Fclosure-compiler-ast.pdf">Closure Compiler AST Documentation</a></li>
-<li>
-<a href="http://jsshaper.org/">JS Shaper</a> an extensible framework for JavaScript syntax tree shaping</li>
-<li>
-<a href="http://code.google.com/p/es-lab/wiki/JsonMLASTFormat">JsonML AST</a> format used by the es5 parser </li>
-<li>
-<a href="https://github.com/zefhemel/treehugger">treehugger</a> JavaScript AST transformation tools</li>
-<li>
-<a href="http://esparser.qfox.nl/">ECMAScript 5 parser</a> A parser for ES5, the current version of ECMAScript.</li>
-<li>
-<a href="http://esprima.org/">Esprima</a> ECMAScript parsing infrastructure for multipurpose analysis</li>
-<li>
-<a href="http://hackage.haskell.org/package/language-javascript">language-javascript</a> JavaScript parser for Haskell.</li>
-</ul>
-<p>Created with the help of <a href="https://github.com/jashkenas/coffee-script/wiki/List-of-languages-that-compile-to-JS">this page</a> (started by <a href="https://twitter.com/_clyfe">@_clyfe</a>) and the guys on <a href="irc://chat.freenode.net/altjs">#altJS</a>, by <a href="https://twitter.com/dxgriffiths/">@dxgriffiths</a></p>
+    <ul>
+      <li>
+        <a href="https://github.com/zaach/jison">jison</a> Bison in JavaScript, used by CoffeeScript</li>
+      <li>
+        <a href="http://tinlizzie.org/ometa-js/#Sample_Project">OMeta/JS</a> (<a href="https://github.com/veged/ometa-js">source</a>) metacompiler for many languages to many targets, including js.</li>
+      <li>
+        <a href="http://pegjs.majda.cz/">PEG.js</a> parser generator for JavaScript based on the parsing expression grammar formalism</li>
+      <li>
+        <a href="http://languagejs.com/">Language.js</a> PEG with error nodes being inserted into the tree for unique error handling</li>
+      <li>
+        <a href="https://github.com/jcoglan/canopy">Canopy</a> Self-hosting PEG parser compiler for JavaScript, influenced by Ruby parser generators such as Treetop and Citrus.  Depends on JS.Class library</li>
+      <li>
+        <a href="http://jscc.jmksf.com/">JS/CC</a> LALR(1) parser generator</li>
+      <li><a href="https://github.com/doublec/jsparse">jsparse</a></li>
+      <li>
+        <a href="https://github.com/weaver/ReParse">ReParse</a> parser combinator library for JavaScript like Haskell's Parsec</li>
+      <li>
+        <a href="https://github.com/asmyczek/p4js">p4js</a> Monadic parser library for JavaScript</li>
+      <li>
+        <a href="http://blog.kalleberg.org/post/1256702765/prototype-of-a-scannerless-generalized-left-to-right">JSGLR</a> Scannerless, Generalized Left-to-right Rightmost (SGLR) derivation parser for JavaScript</li>
+      <li>
+        <a href="https://github.com/antlr/examples-v3">antlr</a> has a JavaScript target</li>
+      <li>
+        <a href="http://code.google.com/p/cruiser/wiki/Parse">Cruiser.Parse</a> LL(k) parser</li>
+    </ul>
+    <h5>Javascript AST (Abstract Syntax Tree)</h5>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
+    <ul>
+      <li><a href="https://docs.google.com/viewer?url=http%3A%2F%2Fclosure-compiler.googlecode.com%2Ffiles%2Fclosure-compiler-ast.pdf">Closure Compiler AST Documentation</a></li>
+      <li>
+        <a href="http://jsshaper.org/">JS Shaper</a> an extensible framework for JavaScript syntax tree shaping</li>
+      <li>
+        <a href="http://code.google.com/p/es-lab/wiki/JsonMLASTFormat">JsonML AST</a> format used by the es5 parser </li>
+      <li>
+        <a href="https://github.com/zefhemel/treehugger">treehugger</a> JavaScript AST transformation tools</li>
+      <li>
+        <a href="http://esparser.qfox.nl/">ECMAScript 5 parser</a> A parser for ES5, the current version of ECMAScript.</li>
+      <li>
+        <a href="http://esprima.org/">Esprima</a> ECMAScript parsing infrastructure for multipurpose analysis</li>
+      <li>
+        <a href="http://hackage.haskell.org/package/language-javascript">language-javascript</a> JavaScript parser for Haskell.</li>
+    </ul>
+    <p>Created with the help of <a href="https://github.com/jashkenas/coffee-script/wiki/List-of-languages-that-compile-to-JS">this page</a> (started by <a href="https://twitter.com/_clyfe">@_clyfe</a>) and the guys on <a href="irc://chat.freenode.net/altjs">#altJS</a>, by <a href="https://twitter.com/dxgriffiths/">@dxgriffiths</a></p>
+  </body>
 </html>
