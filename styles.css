@@ -1,0 +1,23 @@
+h1, h2, h3, h4, h5, h6 { font-family: Helvetica Neue, Helvetica, Arial, sans-serif; }
+
+body {
+	width: 44em;
+	margin: 5em auto;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.6em;
+	font-size: 0.9em;
+}
+
+h4 + p {
+	font-size: 0.9em;
+	line-height: 1.5em;
+	width: 95%;
+}
+
+.pop:after {
+	content: "POPULAR";
+	font-variant: small-caps;
+	background-color: yellow;
+	margin-left: 0.5em;
+	font-size: 0.6em;
+}
